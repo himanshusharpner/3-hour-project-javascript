@@ -1,0 +1,50 @@
+body{
+    background-color: green;
+}
+h1{
+    text-align: center;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.button{
+	background-color: blue;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+}
+
+.button:hover{
+	background: red;
+	color: #fff;
+}
+.box-1{
+	background-color: #333;
+	color: #fff;
+	border-right: 5px red solid;
+	border-left: 5px red solid;
+	border-top: 5px red solid;
+	border-bottom: 5px red solid;
+	/*Smae Thing*/
+    
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    text-align: center;
+
+
+    border: 5px red solid;
+    border-radius: 15px;
+
+    /*Same as Above*/
+    padding: 20px;
+
+   /* margin-top: 20px;*/
+    margin: 20px 0;
+
+}
+
+label{
+    display: block;
+}
